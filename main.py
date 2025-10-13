@@ -24,7 +24,7 @@ while play_game == "y":
             elif sum(computer_card_list) > 21:
                 return True
             elif sum(usr_cards) == sum(computer_card_list):
-                return "draw"
+                return ""
             elif sum(usr_cards) > sum(computer_card_list):
                 return True
             elif sum(usr_cards) < sum(computer_card_list):
@@ -43,8 +43,8 @@ while play_game == "y":
         print("You won!")
     elif result == False:
         print("You lost!")
-    else:
-        print("It's a draw!")
+    elif result == "":
+        print("issa draw")
 
     play_game = input("play game? y/n: ").lower()
     if play_game == "n":
