@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern minimalist portfolio showcasing projects and skills">
+    <title>Portfolio | Ishan Asati</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Go to home section">IA</a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero/Introduction Section -->
+    <section id="home" class="hero" role="banner">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <span class="hero-name">Ishan Asati</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer & Creative Designer</p>
+                <p class="hero-description">
+                    I craft elegant digital experiences with clean code and modern design principles.
+                    Passionate about building user-centric applications that make a difference.
+                </p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">A selection of my recent projects</p>
+            
+            <div class="portfolio-grid">
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" aria-label="Project thumbnail"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">JockBlack Card Game</h3>
+                        <p class="portfolio-description">
+                            An interactive blackjack game built with Python, featuring clean game logic and engaging user experience.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Game Dev</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" aria-label="Project thumbnail"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">E-Commerce Platform</h3>
+                        <p class="portfolio-description">
+                            Full-stack e-commerce solution with seamless checkout, inventory management, and responsive design.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" aria-label="Project thumbnail"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Task Management App</h3>
+                        <p class="portfolio-description">
+                            Intuitive task tracking application with real-time updates, collaboration features, and cloud sync.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">PWA</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" aria-label="Project thumbnail"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Weather Dashboard</h3>
+                        <p class="portfolio-description">
+                            Real-time weather tracking dashboard with data visualization and location-based forecasts.
+                        </p>
+                        <div class="portfolio-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                            <span class="tag">Charts</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="HTML/CSS proficiency 95%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 90%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="React proficiency 85%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Vue.js proficiency 80%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Node.js proficiency 88%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency 85%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 82%" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="MongoDB proficiency 82%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 78%" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="PostgreSQL proficiency 78%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Others</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 92%" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="Git proficiency 92%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Docker proficiency 75%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 87%" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" aria-label="UI/UX Design proficiency 87%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 95%" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Responsive Design proficiency 95%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>ishan@example.com</span>
+                        </li>
+                        <li class="contact-item">
+                            <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="contact-item">
+                            <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>San Francisco, CA</span>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://github.com/IshanAsati" class="social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" class="social-link" aria-label="Twitter profile" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            class="form-input" 
+                            required 
+                            aria-required="true"
+                            aria-describedby="name-error"
+                        >
+                        <span class="error-message" id="name-error" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form-input" 
+                            required 
+                            aria-required="true"
+                            aria-describedby="email-error"
+                        >
+                        <span class="error-message" id="email-error" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            class="form-input" 
+                            required 
+                            aria-required="true"
+                            aria-describedby="subject-error"
+                        >
+                        <span class="error-message" id="subject-error" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form-input form-textarea" 
+                            rows="5" 
+                            required 
+                            aria-required="true"
+                            aria-describedby="message-error"
+                        ></textarea>
+                        <span class="error-message" id="message-error" role="alert"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    <div class="form-status" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2025 Ishan Asati. All rights reserved.</p>
+            <p class="footer-text">Built with passion and minimalism</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
